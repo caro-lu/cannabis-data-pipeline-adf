@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "Canna-ADF"
+        },
+        "Canna_ADLS_accountKey": {
+            "value": ""
+        },
+        "Canna_PostgreSQL_source_db_password": {
+            "value": ""
+        },
+        "Canna_PostgreSQL_reporting_db_password": {
+            "value": ""
+        },
+        "Canna_Snowflake_source_db_password": {
+            "value": ""
+        },
+        "Canna_Snowflake_reporting_db_password": {
+            "value": ""
+        },
+        "Canna_ADLS_properties_typeProperties_url": {
+            "value": "https://YOUR_STORAGE_ACCOUNT.dfs.core.windows.net/"
+        },
+        "Canna_PostgreSQL_source_db_properties_typeProperties_server": {
+            "value": "YOUR_SERVER_IP"
+        },
+        "Canna_PostgreSQL_source_db_properties_typeProperties_database": {
+            "value": "source_db"
+        },
+        "Canna_PostgreSQL_source_db_properties_typeProperties_username": {
+            "value": "reporting_db"
+        },
+        "Canna_PostgreSQL_reporting_db_properties_typeProperties_server": {
+            "value": "152.232.231.206"
+        },
+        "Canna_PostgreSQL_reporting_db_properties_typeProperties_database": {
+            "value": "reporting_db"
+        },
+        "Canna_PostgreSQL_reporting_db_properties_typeProperties_username": {
+            "value": "reporting_db"
+        },
+        "Canna_Snowflake_source_db_properties_typeProperties_database": {
+            "value": "CC_source_db"
+        },
+        "Canna_Snowflake_source_db_properties_typeProperties_role": {
+            "value": "SERVICE_ROLE"
+        },
+        "Canna_Snowflake_source_db_properties_typeProperties_host": {
+            "value": "YOUR_SNOWFLAKE_ACCOUNT.snowflakecomputing.com"
+        },
+        "Canna_Snowflake_reporting_db_properties_typeProperties_database": {
+            "value": "CC_reporting_db"
+        },
+        "Canna_Snowflake_reporting_db_properties_typeProperties_role": {
+            "value": "SERVICE_ROLE"
+        },
+        "Canna_Snowflake_reporting_db_properties_typeProperties_host": {
+            "value": "KNRSBRS-WE28929.snowflakecomputing.com"
+        }
+    }
+}
