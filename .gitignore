@@ -1,0 +1,20 @@
+# Sensitive configuration files
+**/appsettings.json
+**/local.settings.json
+**/*connection*.json
+**/*secret*.json
+**/*password*.txt
+
+# Azure specific
+.azure/
+*.azureauth
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
